@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+body {
+    background-image: url("pics/landing-page-background-vector-21808127.jpg");
+    background-size: cover;
+    font-style: italic;
+    font-size: medium;
+    font-variant: petite-caps;
+    direction: ltr;
+}
+
+p {
+    font-size: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: brown;
+    color: blue;
+}
+
+.go-up {
+    color: burlywood;
+    background-color: rgba(179, 156, 160, 0.589);
+}
+
+.header {
+    background-color: greenyellow;
+    text-align: center;
+}
+
+.title2 {
+    text-align: center;
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 10px;
+    background-color: blue;
+    border-color: rgb(255, 255, 255);
+    border-style: ridge;
+    border-width: 20px;
+}
+
+input[type=button],
+button {
+    color: rgb(17, 17, 17);
+    background-color: #4CAF50;
+    padding: 4px;
+    border-color: white;
+    border-style: solid;
+    border-width: 2px;
+    font-style: italic;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type=button]:focus {
+    color: blueviolet;
+}
+
+input[type=number],
+input[type=text] {
+    margin-top: 5px;
+    border-radius: 5px;
+    border-width: 5px;
+    border-color: grey;
+}
+
+input[type=number]:focus {
+    border-style: ridge;
+    border-color: rgb(21, 231, 21);
+}
+
+input[type=text]:focus {
+    transition: width 0.4s ease-in-out;
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: wrap row;
+    /*in kare 2 taye
+    balaii anjam mide*/
+    width: 100%;
+    justify-content: center;
+    /* mahal gharar 
+    girie block ha*/
+}
+
+.flex-container>div {
+    background-color: rgba(255, 0, 0, 0.774);
+    margin: 2%;
+    /* fasele 2 ta item */
+    padding: 20px;
+    border: rgb(0, 0, 0);
+    border-width: 15px;
+    border-style: double;
+    border-inline-end-color: cornsilk;
+    border-inline-start-color: rgb(254, 255, 254);
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet"   href="Style.css">
+</head>
+
+<body>
+    <div id="up">
+    <header>
+    </header>
+    <p class="header">today is <b id="day"></b> , Have a <b id="Time"></b></p>
+    <p class="title2">Whats You Want?</p>
+    <p id="livetime"></p>
+    <div class="flex-container">
+        <div>
+    <h1>sum or taghsim?</h1>
+    <input type="number" id="num1" /></br>
+    <input type="number" id="num2" /></br>
+    <input type="button" value="sum" onclick="sum()" />
+    <input type="button" value="taghsim" onclick="taghsim()" />
+    <input type="button" value="alert" ondblclick="Hi()" />
+    <input type="button" value="return" onclick="alert(ret(num1,num2))" /></br>
+    <p>Result is:
+        <b id='Result'></b>
+    </p>
+    <p>The Result is <b id="TorF"></b></p>
+        </div>
+        <div>
+    <input type="text" id="Name" />
+    <input type='text' id='family' />
+    <input   type="button" value="insert" onclick="alert(person.fullname())" />
+    <input   type="button" value="wellcome" onclick="alert(wellcome())" />
+        </div>
+        <div>
+    <p id="time">Time</p>
+    <button   id="show" onclick="time()">Show time !</button>
+        </div>
+        <div> 
+    <p id="names"></p>
+        </div>
+        <div>
+    <input type="number" id="num3"/> be tavane 
+    <input type="number" id="num4"/>
+    <button   onclick="tavan()">tavan</button>
+    <p id="resultt"></p>
+        </div>
+        <div>
+    <input type="text" id="intorfloat"/>
+    <input   type="button" onclick="barresi()" value="which?">
+    <b>Result is : </b> <i id="barresi"></i>
+        </div>
+        <div>
+    <p>For register you need have age between 20 to 40</p>
+    <input type="text" id="age"/>
+    <button   onclick="Register()">Register</button>
+    you <b><i id="Register"></i></b>
+        </div>
+        <div>
+    <button onclick="alert(person.myname())" onmouseup="this.style.display = 'none' ">Show my name !</button>
+    <b id="test1"></b>
+    <b id="test2"></b>
+    <b id="test3"></b>
+        </div>
+    </div>
+</body>
+<footer>
+    <p> > CopyRight 2022 < </p>
+    <a href="#up" class="go-up">Go up</a>
+</footer>
+
+<script src="JavaS.js"></script>
+
+</html>
